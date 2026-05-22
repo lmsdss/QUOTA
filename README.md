@@ -29,23 +29,13 @@ QUOTA learns a **discriminative text token** in [SDXL-Turbo](https://huggingface
 
 Training uses an **inner / outer loop** over three source-domain prompts; only **text-encoder token embeddings** are optimized (VAE and UNet frozen).
 
----
-
-## Requirements
-
-- Linux with **NVIDIA GPU** (CUDA)
-- **Conda** (recommended)
-- **Hugging Face** access for `stabilityai/sdxl-turbo` and `hustvl/yolos-tiny` (downloaded on first run)
-- Disk space for generated images, tokens, and checkpoints
-
----
 
 ## Installation
 
 ### 1. Clone and enter the repository
 
 ```bash
-git clone <YOUR_REPO_URL>
+git clone https://github.com/lmsdss/QUOTA.git
 cd QUOTA
 ```
 
