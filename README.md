@@ -290,29 +290,21 @@ Results in the paper use **[SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-
 
 If you find this work useful, please cite:
 
+```bibtex
 @InProceedings{Sun_2026_WACV,
-    author    = {Sun, Wenfang and Du, Yingjun and Liu, Gaowen and Zheng, Yefeng and Snoek, Cees G. M.},
-    title     = {QUOTA: Quantifying Objects with Text-to-Image Models for Any Domain},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {March},
-    year      = {2026},
-    pages     = {6381-6390}
+  author    = {Sun, Wenfang and Du, Yingjun and Liu, Gaowen and Zheng, Yefeng and Snoek, Cees G. M.},
+  title     = {QUOTA: Quantifying Objects with Text-to-Image Models for Any Domain},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  month     = {March},
+  year      = {2026},
+  pages     = {6381-6390}
 }
-
+```
 ---
 
 ## Acknowledgements
 
-This codebase builds upon [count_token_optimization](https://github.com/ozzafar/count_token_optimization) ([Zafar et al., 2024](https://arxiv.org/abs/2408.11721)). We thank the authors for releasing their implementation.
-
-- [count_token_optimization](https://github.com/ozzafar/count_token_optimization) — iterative object-count token optimization for text-to-image diffusion models  
-- [CLIP-Count](https://github.com/songrise/CLIP-Count) — counting backbone  
-- [Stable Diffusion XL Turbo](https://huggingface.co/stabilityai/sdxl-turbo) — fast text-to-image generation  
-- [Hugging Face Diffusers](https://github.com/huggingface/diffusers) (vendored under `diffusers/`)
+This project is built upon prior open-source efforts including [count_token_optimization](https://github.com/ozzafar/count_token_optimization), [CLIP-Count](https://github.com/songrise/CLIP-Count), [Stable Diffusion XL Turbo](https://huggingface.co/stabilityai/sdxl-turbo), and [Hugging Face Diffusers](https://github.com/huggingface/diffusers) (vendored under `diffusers/`).
 
 ---
 
-## License
-
-Code in `clip_count/` follows the CLIP-Count license (see `clip_count/LICENSE`).  
-Add a top-level `LICENSE` for the QUOTA-specific code before public release if needed.
