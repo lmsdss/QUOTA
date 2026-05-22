@@ -1,6 +1,12 @@
 # QUOTA: Quantifying Objects with Text-to-Image Models for Any Domain
 
-**Wenfang Sun, Yingjun Du, Gaowen Liu, Yefeng Zheng, Cees G. M. Snoek** · WACV 2026
+**Wenfang Sun, Yingjun Du, Gaowen Liu, Yefeng Zheng, Cees G. M. Snoek**
+
+[**Paper**](https://arxiv.org/abs/2411.19534) · WACV 2026
+
+<p align="center">
+  <img src="Poster_WACV.png" alt="QUOTA: Quantifying Objects with Text-to-Image Models for Any Domain — WACV 2026 poster" width="900"/>
+</p>
 
 Official PyTorch implementation of **QUOTA**.
 
