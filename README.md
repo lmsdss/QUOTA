@@ -290,14 +290,14 @@ Results in the paper use **[SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-
 
 If you find this work useful, please cite:
 
-```bibtex
-@inproceedings{sun2026quota,
-  title     = {QUOTA: Quantifying Objects with Text-to-Image Models for Any Domain},
-  author    = {Sun, Wenfang and Du, Yingjun and Liu, Gaowen and Zheng, Yefeng and Snoek, Cees G. M.},
-  booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
-  year      = {2026}
+@InProceedings{Sun_2026_WACV,
+    author    = {Sun, Wenfang and Du, Yingjun and Liu, Gaowen and Zheng, Yefeng and Snoek, Cees G. M.},
+    title     = {QUOTA: Quantifying Objects with Text-to-Image Models for Any Domain},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {March},
+    year      = {2026},
+    pages     = {6381-6390}
 }
-```
 
 ---
 
