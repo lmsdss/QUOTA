@@ -8,8 +8,6 @@
   <img src="Poster_WACV.png" alt="QUOTA: Quantifying Objects with Text-to-Image Models for Any Domain — WACV 2026 poster" width="900"/>
 </p>
 
-Official PyTorch implementation of **QUOTA**.
-
 QUOTA learns a **discriminative text token** in [SDXL-Turbo](https://huggingface.co/stabilityai/sdxl-turbo) so that generated images contain a **target object count**, and generalizes from **source visual domains** (cartoon / photo / sketch) to an unseen **target domain** (painting).
 
 <p align="center">
